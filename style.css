@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif; /* Makes the text easy to read */
+    margin: 20px; /* Space around the edges */
+    background-color: #f4f7f6; /* A very light blue background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+}
+
+h1 {
+    color: #0056b3; /* A nice blue for the title */
+    text-align: center; /* Center the title */
+}
+
+p {
+    text-align: center;
+}
+
+textarea {
+    display: block; /* Makes it sit on its own line */
+    margin: 20px auto; /* Centers the text area */
+    width: 90%; /* Makes it wide */
+    max-width: 700px; /* But not too wide on big screens */
+    padding: 10px; /* Space inside the box */
+    border: 1px solid #ccc; /* A light border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745; /* A friendly green button */
+    color: white; /* White text on the button */
+    padding: 10px 20px; /* Size of the button */
+    border: none; /* No border around the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Makes the mouse pointer change when you hover */
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green when you hover */
+}
+
+#helperIdeas { /* Updated ID for your ideas box */
+    margin-top: 30px; /* Space above the ideas box */
+    padding: 20px;
+    border: 1px dashed #999; /* A dashed border for the ideas */
+    background-color: #ffffff; /* White background for ideas */
+    border-radius: 8px;
+    min-height: 100px; /* Make sure it has some height */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none; /* No dots next to the ideas */
+    padding: 0;
+}
+
+li {
+    background-color: #e2f0fb; /* Light blue background for each idea */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex; /* Helps align the copy button */
+    justify-content: space-between; /* Puts text on left, button on right */
+    align-items: center; /* Centers items vertically */
+}
+
+.copy-button {
+    background-color: #007bff; /* Blue copy button */
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.copy-button:hover {
+    background-color: #0056b3; /* Darker blue when hover */
+}
